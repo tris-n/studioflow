@@ -1,0 +1,33 @@
+{
+  "name": "studioflow",
+  "version": "1.0.0",
+  "description": "studioflow",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tris-n/studioflow.git"
+  },
+  "author": "Tristan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tris-n/studioflow/issues"
+  },
+  "homepage": "https://github.com/tris-n/studioflow#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^6.5.2",
+    "uuid": "^9.0.0"
+  }
+}
