@@ -13,7 +13,7 @@
     A comprehensive film production management tool.
     <br />
     <br />
-    <a href="https://www.studioflow.com/">View Demo</a>
+    <a href="https://studioflow-b3693e96f173.herokuapp.com">View Demo</a>
     ·
     <a href="https://github.com/tris-n/studioflow/issues">Report Bug</a>
 	<br />
@@ -201,12 +201,12 @@ To get a local copy up and running, follow these simple steps.
 ## Usage
 
 ### Getting Started
-Create a `Studio Head` account at [https://www.studioflow.com//register](https://www.studioflow.com//register). Upon registration, you will be automatically logged in.
+Create a `Studio Head` account at [https://studioflow-b3693e96f173.herokuapp.com/register](https://studioflow-b3693e96f173.herokuapp.com/register). Upon registration, you will be automatically logged in.
 
 ![register]
 
 ### Live Demo
-If you just want to demo the site without creating an account, you can click on one of the four role demos at [https://www.studioflow.com//](https://www.studioflow.com//).
+If you just want to demo the site without creating an account, you can click on one of the four role demos at [https://studioflow-b3693e96f173.herokuapp.com/](https://studioflow-b3693e96f173.herokuapp.com/).
 
 ![demo]
 
